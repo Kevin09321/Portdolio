@@ -1,0 +1,66 @@
+h1{
+    color: red;
+    margin-left: 30px;
+}
+.header * {
+    border : #eeeeee solid;
+
+}
+.menue {
+    margin: 30px;
+
+}
+.menue * {
+    margin: 30px;
+}
+
+/* *{
+    border:solid;
+} */
+
+body{
+    background-color: #808080;
+}
+
+.header{
+background-color: #cccccc;
+ display: flex;
+ justify-content : space-between
+
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.grid{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    position : relative;
+    
+}
+.item p {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover a{
+    opacity: 0.3;
+}
+a:link{
+    color: #ffffff;
+}
+a:visited{
+    color: #ffffff;
+}
+
